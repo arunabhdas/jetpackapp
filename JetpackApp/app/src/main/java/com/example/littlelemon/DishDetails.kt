@@ -14,6 +14,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
@@ -29,10 +30,16 @@ fun DishDetails(id: Int) {
             modifier = Modifier.fillMaxWidth(),
             contentScale = ContentScale.FillWidth,
         )
-        Column() {
+        Column(
+            verticalArrangement = Arrangement.spacedBy(10.dp),
+            modifier = Modifier.padding(
+                start = 10.dp,
+                end = 10.dp
+            )
+        ) {
             Text(
                 text = dish.name,
-                style = MaterialTheme.typography.body1,
+                style = MaterialTheme.typography.h6,
                 modifier = Modifier
                     .padding(8.dp)
             )
@@ -45,7 +52,8 @@ fun DishDetails(id: Int) {
             Counter()
             Button(onClick = { /*TODO*/ }) {
                Text(
-                   text = stringResource(id = R.string.add_for) + " $${dish.price}"
+                   text = stringResource(id = R.string.add_for) + " $${dish.price}",
+                   textAlign = TextAlign.Center
                )
             }
 

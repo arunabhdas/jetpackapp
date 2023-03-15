@@ -21,6 +21,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
+import com.example.littlelemon.ui.theme.LittleLemonColor
 
 @Composable
 fun LowerPanel(navController: NavHostController, dishes: List<Dish> = listOf()) {
@@ -42,7 +43,7 @@ fun WeeklySpecialCard() {
     ) {
         Text(
             text = stringResource(R.string.weekly_special),
-            style = MaterialTheme.typography.h6,
+            style = MaterialTheme.typography.h1,
             modifier = Modifier
                 .padding(8.dp)
         )
@@ -98,6 +99,7 @@ fun MenuDish(navController: NavHostController? = null, dish: Dish) {
     Divider(
         modifier = Modifier.padding(start = 8.dp, end = 8.dp),
         thickness = 1.dp,
+        color = LittleLemonColor.yellow
     )
 }
 
