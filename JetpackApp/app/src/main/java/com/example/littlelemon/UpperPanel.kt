@@ -26,12 +26,14 @@ fun UpperPanel() {
             .background(LittleLemonColor.green)
     ) {
         Text(
+            modifier = Modifier.padding(start = 5.dp, end = 5.dp),
             text = stringResource(id = R.string.title),
             fontSize = 40.sp,
             fontWeight = FontWeight.Bold,
             color = LittleLemonColor.yellow
         )
         Text(
+            modifier = Modifier.padding(start = 5.dp, end = 5.dp),
             text = stringResource(id = R.string.location),
             fontSize = 24.sp,
             color = LittleLemonColor.cloud
@@ -45,7 +47,7 @@ fun UpperPanel() {
                 text = stringResource(id = R.string.description),
                 style = MaterialTheme.typography.body1,
                 modifier = Modifier
-                    .padding(bottom = 28.dp, end = 20.dp)
+                    .padding(start = 5.dp, bottom = 28.dp, end = 20.dp)
                     .fillMaxWidth(0.6f),
                 color = LittleLemonColor.cloud
             )
@@ -56,6 +58,7 @@ fun UpperPanel() {
             )
         }
         Button(
+            modifier = Modifier.padding(start = 5.dp, end = 5.dp),
             onClick = { }
         ) {
             Text(
