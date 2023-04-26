@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Jetpack App</string>
-    <string name="title">Jetpack App</string>
+    <string name="app_name">Unicorn App</string>
+    <string name="title">Unicorn App</string>
     <string name="location">Apps, Stacks, Backends</string>
     <string name="description">Jetpack Media is a full-service digital agency</string>
     <string name="order_button_text">Order Take Away</string>
