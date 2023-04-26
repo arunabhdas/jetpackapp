@@ -14,7 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.littlelemon.R
+import app.unicornapp.unicornapp.R
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 
@@ -33,7 +33,7 @@ fun TopAppBar(scaffoldState: ScaffoldState? = null, scope: CoroutineScope? = nul
             )
         }
         Image(
-            painter = painterResource(id = R.drawable.littlelemonimgtxt_nobg),
+            painter = painterResource(id = R.drawable.unicornappimgtxt_nobg),
             contentDescription = "Little Lemon Logo",
             modifier = Modifier.fillMaxWidth(0.5F)
                 .padding(horizontal = 20.dp)

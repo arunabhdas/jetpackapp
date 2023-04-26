@@ -1,7 +1,7 @@
 package app.unicornapp.unicornapp
 
 import androidx.annotation.DrawableRes
-import com.example.littlelemon.R
+import app.unicornapp.unicornapp.R
 
 object DishRepository {
     val dishes = listOf(

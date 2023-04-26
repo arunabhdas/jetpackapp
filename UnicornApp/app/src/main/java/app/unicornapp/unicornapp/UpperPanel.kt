@@ -16,7 +16,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.littlelemon.R
+import app.unicornapp.unicornapp.R
 import app.unicornapp.unicornapp.ui.theme.LittleLemonColor
 
 @Composable
@@ -24,7 +24,7 @@ fun UpperPanel() {
     Column(
         modifier = Modifier
             .padding(start = 0.dp, end = 0.dp, top = 16.dp, bottom = 16.dp)
-            .background(LittleLemonColor.green)
+            .background(LittleLemonColor.violet)
     ) {
         Text(
             modifier = Modifier.padding(start = 5.dp, end = 5.dp),

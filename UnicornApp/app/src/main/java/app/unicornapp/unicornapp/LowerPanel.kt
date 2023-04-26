@@ -19,7 +19,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import com.example.littlelemon.R
+import app.unicornapp.unicornapp.R
 import app.unicornapp.unicornapp.ui.theme.LittleLemonColor
 
 @Composable
