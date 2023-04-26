@@ -1,5 +1,5 @@
-# jetpackapp
-Jetpack App
+# Unicorn App
+Unicorn App
 
 ## Screenshots
 
