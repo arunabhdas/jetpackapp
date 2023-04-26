@@ -1,4 +1,4 @@
-package app.example.littlelemon
+package app.unicornapp.unicornapp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

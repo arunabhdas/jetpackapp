@@ -1,4 +1,4 @@
-package app.example.littlelemon.ui.theme
+package app.unicornapp.unicornapp.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

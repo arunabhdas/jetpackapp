@@ -1,4 +1,4 @@
-package app.example.littlelemon
+package app.unicornapp.unicornapp
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -8,7 +8,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import app.example.littlelemon.ui.theme.LittleLemonTheme
+import app.unicornapp.unicornapp.ui.theme.LittleLemonTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

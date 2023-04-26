@@ -1,4 +1,4 @@
-package app.example.littlelemon
+package app.unicornapp.unicornapp
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -17,7 +17,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.littlelemon.R
-import app.example.littlelemon.ui.theme.LittleLemonColor
+import app.unicornapp.unicornapp.ui.theme.LittleLemonColor
 
 @Composable
 fun UpperPanel() {
