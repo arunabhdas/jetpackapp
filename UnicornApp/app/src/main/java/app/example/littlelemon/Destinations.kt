@@ -1,4 +1,4 @@
-package com.example.littlelemon
+package app.example.littlelemon
 
 interface Destinations {
     val route: String

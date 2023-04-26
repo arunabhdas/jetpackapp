@@ -1,4 +1,4 @@
-package com.example.littlelemon
+package app.example.littlelemon
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.runtime.Composable

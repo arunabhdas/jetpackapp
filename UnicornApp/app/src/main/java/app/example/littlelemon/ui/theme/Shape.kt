@@ -1,4 +1,4 @@
-package com.example.littlelemon.ui.theme
+package app.example.littlelemon.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes
